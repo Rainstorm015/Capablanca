@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AP3_Projet_Capablanca" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AP3_Projet_Capablanca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AP3_Projet_Capablanca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="controller/ai.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controller/ai.h" />
+		<Unit filename="controller/divers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controller/divers.h" />
+		<Unit filename="controller/echecs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="model/primitives.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="model/primitives.h" />
+		<Unit filename="model/primitives_listes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="model/primitives_listes.h" />
+		<Unit filename="model/primitives_pieces.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="model/primitives_pieces.h" />
+		<Unit filename="model/struct.h" />
+		<Unit filename="view/gui_event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="view/gui_event.h" />
+		<Unit filename="view/gui_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="view/gui_window.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

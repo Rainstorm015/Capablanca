@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1560342993 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\controller\ai.c
+	"../controller/ai.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\controller\ai.h
+	"../model/struct.h"
+	"../model/primitives_listes.h"
+	"../controller/divers.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\struct.h
+	<stdio.h>
+	<stdlib.h>
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\primitives_listes.h
+	"../model/struct.h"
+	"../controller/divers.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\controller\divers.h
+	"../model/struct.h"
+	"../model/primitives.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\primitives.h
+	"../model/struct.h"
+	"../model/primitives_pieces.h"
+	"../model/primitives_listes.h"
+	"../controller/divers.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\primitives_pieces.h
+	"../model/struct.h"
+	"../model/primitives.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\controller\divers.c
+	"../controller/divers.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\controller\echecs.c
+	"../view/gui_window.h"
+	"../controller/divers.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\view\gui_window.h
+	<gtk/gtk.h>
+	<string.h>
+	"../model/struct.h"
+	"../view/gui_event.h"
+
+1560009025 c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\view\gui_event.h
+	"../view/gui_window.h"
+	"../model/primitives.h"
+	"../model/primitives_pieces.h"
+	"../controller/divers.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\primitives.c
+	"../model/primitives.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\primitives_listes.c
+	"../model/primitives_listes.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\model\primitives_pieces.c
+	"../model/primitives_pieces.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\view\gui_event.c
+	"../view/gui_event.h"
+
+1560009025 source:c:\users\rainstorm015\documents\git-repositories\ap3_projet_capablanca\view\gui_window.c
+	"../view/gui_window.h"
+
